@@ -24,18 +24,16 @@ rm -f cat\n\
 rm -f rm\n\
 rm -f date\n\
 ```\n\
-\n\
-## Compilation of Individual Commands\n\
-To compile individual commands, you can use the following commands:\n\
-\n\
-```sh\n\
-make compile\n\
-gcc ls.c -o ls\n\
-gcc mkdir.c -o mkdir\n\
-gcc cat.c -o cat\n\
-gcc rm.c -o rm\n\
-gcc date.c -o date\n\
-```\n\
+
+## Compilation of Individual Commands
+To compile individual commands, you can use the following commands:
+make compile
+gcc ls.c -o ls
+gcc mkdir.c -o mkdir
+gcc cat.c -o cat
+gcc rm.c -o rm
+gcc date.c -o date
+
 "
 
 # Rule to create README file
